@@ -9,6 +9,12 @@ const education = [
   ];
 
   const experience = [
+     {
+      role: "MERN Stack Developer (Intern)",
+      company: "Global IT Providers",
+      description: "Completed internship as MERN developer, building real-world web applications.",
+      icon: "💻",
+    },
     {
       role: "MERN Stack Developer (Trainee)",
       company: "Grras Solution Pvt Ltd",

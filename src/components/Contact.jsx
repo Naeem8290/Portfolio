@@ -43,16 +43,16 @@ const Contact = () => {
                         <div>
                             <h3 className='text-2xl font-semibold text-gray-300'>Follow Me</h3>
                             <div className='flex gap-3 text-2xl transition-all mt-5'>
-                                <a href="https://www.facebook.com/share/1DcMimv1X6">                
+                                <a href="https://www.facebook.com/share/1DcMimv1X6" target='_blank'>                
                                 <FaFacebook className='text-gray-100 hover:text-blue-400' />
                                 </a>
-                                <a href="https://www.instagram.com/naeem_akhtar_8290?igsh=MTZoMWJleTdlZTR4dw==">
+                                <a href="https://www.instagram.com/naeem_akhtar_8290?igsh=MTZoMWJleTdlZTR4dw==" target='_blank'>
                                     <FaInstagram className='text-gray-100 hover:text-blue-400' />
                                 </a>
-                                <a href="https://www.linkedin.com/in/naeem-akhtar-337372237">
+                                <a href="https://www.linkedin.com/in/naeem-akhtar-developer" target='_blank'>
                                     <FaLinkedin className='text-gray-100 hover:text-blue-400' />
                                 </a>
-                                <a href="https://github.com/Naeem8290">
+                                <a href="https://github.com/Naeem8290" target='_blank'>
                                     <FaGithub className='text-gray-100 hover:text-blue-400' />
                                 </a>
                             </div>

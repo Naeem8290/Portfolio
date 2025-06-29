@@ -7,27 +7,27 @@ import { FaGithub } from 'react-icons/fa'
 const Project = () => {
     const projects = [
         {
-          title: "News AI Aggregator",
+          title: "AI Feed",
           description:
             "Designed and developed a real-time AI-driven news aggregator that fetches news from multiple APIs, summarizes articles using Gemini AI, and provides personalized recommendations to Users.",
           techStack: ["React Js", "Express Js" , "MongoDB", "Mantine", "Tailwind CSS", "Firebase", "Redux"], 
-          link: "https://news-ai-eight.vercel.app/",
+          link: "http://3.91.83.171",
           github: 'https://github.com/Naeem8290/News_AI',
           image: News,
         },
         {
-          title: "Food Order Platform",
+          title: "FoodToHome",
           description:
-            "Developed a full-stack food ordering app using React.js, React Hooks, and Context API for state management.",
+            "Built a full-stack food ordering platform using React.js for the frontend, Node.js and Express for the backend, and integrated Context API and Hooks for efficient state and UI management.",
           techStack: ["React Js", "Express Js", "MongoDB", "BootStrap", "Hooks"],
-          link: "https://food-order-lyart-beta.vercel.app/",
+          link: "https://food-order-lyart-beta.vercel.app",
           github: 'https://github.com/Naeem8290/Food_Order',
           image: Hotel,
         },
         {
           title: "E-Commerce",
           description:
-            "Developed a frontend E-Commerce with React for the best Clothes to order .",
+            "Designed and developed a responsive e-commerce frontend for a clothing store using React.js, allowing users to browse items, add to cart, and place orders easily.",
           techStack: ["React Js", "Hooks", "Mantine", "Tailwind CSS", "Responsive UI"],
           link: "https://e-commerce-navy-alpha-65.vercel.app/",
           github: 'https://github.com/Naeem8290/E-Commerce',
