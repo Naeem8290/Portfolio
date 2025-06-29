@@ -39,7 +39,7 @@ const Hero = () => {
             whileInView={{opacity:1, x:0}}
             transition={{duration:1.4, delay:0.5}}
             className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>I build fast, responsive, and user-friendly web applications using MongoDB, Express.js, React, and Node.js. I love turning ideas into real-world projects and continuously learning to grow as a developer.</motion.p>
-            <a href="/src/assets/Resume.pdf" target="_blank">
+            <a href="/Resume.pdf" target="_blank">
             <motion.button 
             initial={{opacity:0, x:-100}}
             whileInView={{opacity:1, x:0}}
