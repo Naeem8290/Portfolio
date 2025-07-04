@@ -40,7 +40,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="bg-gray-900 py-10" id="skills">
+    <div className="bg-gray-900 py-20" id="skills">
       <h1 className="text-4xl font-bold text-center text-white mb-10">SKILLS</h1>
       <div className="flex flex-wrap justify-center items-center max-w-3xl mx-auto">
         {skill.map((data, index) => (
