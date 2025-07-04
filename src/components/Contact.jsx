@@ -70,6 +70,7 @@ const Contact = () => {
                                     name="name"
                                     className='mt-1 w-full p-3 border bg-gray-900 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
                                     placeholder='Your Name'
+                                    required
                                 />
                             </div>
                             <div>
@@ -80,6 +81,7 @@ const Contact = () => {
                                     name="email"
                                     className='mt-1 w-full p-3 border bg-gray-900 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
                                     placeholder='Your Email'
+                                    required
                                 />
                                
                             </div>
@@ -90,7 +92,9 @@ const Contact = () => {
                                     name="message"
                                     rows={5}
                                     className='mt-1 w-full p-3 border bg-gray-900 text-gray-300 border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500'
-                                    placeholder='Your Message'></textarea>
+                                    placeholder='Your Message'
+                                    required
+                                    ></textarea>
                             </div>
                             <button type='submit' className='w-full bg-blue-500 text-white py-3 rounded-lg shadow-md hover:bg-blue-600 transition-colors'>Send Message</button>
                         </form>
